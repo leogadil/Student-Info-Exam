@@ -1,0 +1,10 @@
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.csprojAssemblyReference.cache
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.frmStudentInfo.resources
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.Properties.Resources.resources
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.csproj.GenerateResource.cache
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.csproj.CoreCompileInputs.cache
+C:\Users\leoga\source\repos\StudentInfoApplication\bin\Debug\StudentInfoApplication.exe.config
+C:\Users\leoga\source\repos\StudentInfoApplication\bin\Debug\StudentInfoApplication.exe
+C:\Users\leoga\source\repos\StudentInfoApplication\bin\Debug\StudentInfoApplication.pdb
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.exe
+C:\Users\leoga\source\repos\StudentInfoApplication\obj\Debug\StudentInfoApplication.pdb
