@@ -12,13 +12,17 @@ namespace StudentInfoApplication
 {
     public partial class frmStudentInfo : Form
     {
+        Dictionary<int, StudentInfo> StudentList = new Dictionary<int, StudentInfo>();
+
         public frmStudentInfo()
         {
             InitializeComponent();
+
         }
+
         private void Submit_Button_Click(object sender, EventArgs e)
         {
-            // temp variables
+            //temp variables
             int _id = 0;
             string _firstName = "";
             string _lastName = "";
@@ -40,13 +44,14 @@ namespace StudentInfoApplication
                 MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
             }
 
-            //initialize student class with variables
+            //initialize student class with variables and add to dictionary
             StudentInfo student = new StudentInfo(_id, _firstName, _lastName);
+            StudentList.Add(_id, student);
 
             //append to three list in interface
             StudentIDList.Items.Add(_id);
-            StudentFirstNameList.Items.Add(student.StudentFirstName);
-            StudentLastNameList.Items.Add(student.StudentLastName);
+            StudentFirstNameList.Items.Add(StudentList[_id].StudentFirstName);
+            StudentLastNameList.Items.Add(StudentList[_id].StudentLastName);
 
             //clear the textboxes
             ID_Input.Clear();
@@ -54,6 +59,7 @@ namespace StudentInfoApplication
             Last_Name_Input.Clear();
 
         }
+
     }
 
     public class StudentInfo
